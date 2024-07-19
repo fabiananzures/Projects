@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+table, th, td{
+    border: 2px solid black;
+    width: 25%;
+}
+th,td{
+    padding: 10px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+form, h1{
+    margin-top: 25px;
+    text-align: center;
+}
+.user-info{
+    padding-left: 100px;
+    padding-top: 75px;
+    font-size: 20px;
+}
+.total{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 25px;
+}
+.content{
+    text-align: center;
+}
+.header{
+    margin: 25px;
+}
+table{
+    width: 75%;
+}
+.entry{
+    border-radius: 10px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+    width: 15%;
+}
+.entry:hover, .add-service:hover{
+    font-size: 15px;
+}
+.add-service, .entry{
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+input::placeholder{
+    text-align: center;
+    color:black;
+}
+.download-btn{
+    text-decoration: none;
+    color: green;
+    cursor: pointer;
+}
+.download-btn:hover, .logout-btn:hover{
+    text-decoration: underline;
+}
+.delete-btn{
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
+.delete-btn:hover, .logout-btn{
+    text-decoration: underline;
+}
+.logout-btn{
+    text-decoration: none;
+    color: grey;
+}

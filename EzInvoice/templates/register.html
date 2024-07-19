@@ -1,0 +1,32 @@
+{% extends 'base.html'%}
+
+{% block head %}
+<title>Register to EzInvoice</title>
+{% endblock %}
+
+{% block body %}
+<div class="wrapper">
+    <h1>Register</h1>
+    <form action="{{ url_for('register') }}" method="POST" id="register_form">
+        <div class="input-box">
+            <input name="name" type="text" placeholder="Name" id='name' required>
+        </div>
+        <div class="input-box">
+            <input name="lastname" type="text" placeholder="Lastname" id='lastname' required>
+        </div>
+        <div class="input-box">
+            <input name="company" type="text" placeholder="Company" id='company' required>
+        </div>
+        <div class="input-box">
+            <input name="username" type="text" placeholder="Username" id='username' required>
+        </div>
+        <div class="input-box">
+            <input name="password" type="password" placeholder="Password" id='password' required>
+        </div>
+        </a><button type="submit" class="btn" form="register_form">Register</button>
+    </form>
+    <div class="msg-register">{{ msg }}</div>
+    <div class="register-link"><p><a href="{{ url_for('login') }}">Back to Login</a></p></div>
+
+</div>
+{% endblock %}
