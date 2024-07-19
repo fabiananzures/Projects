@@ -1,6 +1,0 @@
-{% for name,lastname in user_info%}
-                {{ name }}
-                {{ lastname }}
-                122 Romano Rd
-                South Portland, ME
-                {% endfor %}
